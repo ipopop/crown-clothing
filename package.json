@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "@svgr/webpack": "^5.4.0",
     "yargs-parser": "^18.1.3"
   }
 }
