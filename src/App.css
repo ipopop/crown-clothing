@@ -1,14 +1,14 @@
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans Condensed";
+    color: #4a4a4a;
+}
+
 body {
-    font-family: 'Open Sans Condensed';
     padding: 20px 60px;
-    background-color: #fefefe;
+    background-color: #F9FAFB;
 }
 
 a {
     text-decoration: none;
-    color: #333;
-}
-
-* {
-    box-sizing: border-box;
 }
