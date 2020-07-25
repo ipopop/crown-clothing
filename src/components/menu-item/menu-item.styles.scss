@@ -10,17 +10,19 @@
   overflow: hidden;
   border-radius: 0.25rem;
 
+  
   & .background-image {
+    opacity: 1;
     transform: scale(1);
-    transition: transform 0.85s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    transition: all 0.85s cubic-bezier(0.25, 0.45, 0.45, 0.95);
   }
-
+  
   &:hover {
     cursor: pointer;
-
+    
     & .background-image {
+      opacity: 0.85;
       transform: scale(1.1);
-      transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
     }
 
     & .content {
