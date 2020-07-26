@@ -1,0 +1,24 @@
+.collection-page {
+  // display: flex;
+  // flex-direction: column;
+  // padding: 1vw;
+
+  
+  .title {
+    font-size: 38px;
+    margin: 0 auto 30px;
+  }
+  
+  .items {
+    //margin: 0 auto;    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-column-gap: 1vw;
+    
+    & .collection-item {
+      max-width: 200px;
+      min-width: 180px;
+      margin-bottom: 30px;
+    }
+  }
+}
