@@ -10,14 +10,16 @@ const CollectionItem = ({ item, addItem }) => {
 
   return (
     <CollectionItemContainer>
-    <BackgroundImage className='image' imageUrl={imageUrl} />
-    <CollectionFooterContainer>
-      <NameContainer>{name}</NameContainer>
-      <PriceContainer>{price}</PriceContainer>
-    </CollectionFooterContainer>
-    <AddButton onClick={() => addItem(item)} inverted>
-      Add to cart
-    </AddButton>
+      <ImageContainer>
+        <BackgroundImage className='image' imageUrl={imageUrl} />
+      </ImageContainer>  
+      <CollectionFooterContainer>
+        <NameContainer>{name}</NameContainer>
+        <PriceContainer>{price}</PriceContainer>
+      </CollectionFooterContainer>
+      <AddButton onClick={() => addItem(item)} inverted>
+        Add to cart
+      </AddButton>
     </CollectionItemContainer>
   );
 };
