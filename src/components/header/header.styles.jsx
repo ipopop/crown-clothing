@@ -14,6 +14,12 @@ export const LogoContainer = styled(Link)`
   height: 100%;
   width: 70px;
   padding: 25px;
+  polygon {
+    fill: #aad12a;
+  }
+  circle {
+    fill: rgba(170, 209, 42, 0.85);
+  }
 `
 
 export const OptionsContainer = styled.div`
