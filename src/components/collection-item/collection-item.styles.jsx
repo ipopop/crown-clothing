@@ -54,7 +54,7 @@ export const BackgroundImage = styled.div`
   transform: scale(1); /* custom */
   transition: all 0.25s cubic-bezier(0.25, 0.45, 0.45, 0.95); /* custom */  
   background-image: ${({ imageUrl }) => `url(${imageUrl})`};
-  ${ImageContainer}:hover & {
+  ${CollectionItemContainer}:hover & {
         opacity: 0.85;
         transform: scale(1.05);
       }
