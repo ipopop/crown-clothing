@@ -2,15 +2,15 @@ import styled from 'styled-components'
 import CustomButton from '../custom-button/custom-button.component'
 
 export const CollectionItemContainer = styled.div`
+  position: relative;
   min-width: 220px;
   max-width: 250px;
   height: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
   &:hover {
-    cursor: pointer; /* custom */
+    cursor: pointer;
     button {
       opacity: 0.85;
       display: flex;
@@ -19,9 +19,9 @@ export const CollectionItemContainer = styled.div`
 `
 
 export const AddButton = styled(CustomButton)`
+  position: absolute;
   width: 80%;
   opacity: 0.7;
-  position: absolute;
   top: 230px;
   display: none;
   z-index: 3;
@@ -40,14 +40,12 @@ export const ImageContainer = styled.div`
 
 export const BackgroundImage = styled.div`
   width: 100%;
-  /* height: 95%; */
-  height: 350px; /* custom */
+  height: 350px;
   background-size: cover;
-  background-position: center;
-  /* margin-bottom: 5px; */
-  opacity: 1; /* custom */
-  transform: scale(1); /* custom */
-  transition: all 0.25s cubic-bezier(0.25, 0.45, 0.45, 0.95); /* custom */  
+  background-position: center;  
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.25s cubic-bezier(0.25, 0.45, 0.45, 0.95);  
   background-image: ${({ imageUrl }) => `url(${imageUrl})`};
   ${CollectionItemContainer}:hover & {
         opacity: 0.85;
@@ -56,8 +54,7 @@ export const BackgroundImage = styled.div`
 `
 
 export const CollectionFooterContainer = styled.div`
-  /* width: 100%; */
-  width: 90%; /* custom */
+  width: 90%;
   height: min-content;
   display: flex;
   justify-content: space-between;
@@ -67,7 +64,7 @@ export const CollectionFooterContainer = styled.div`
 
 export const NameContainer = styled.span`
   width: 80%;
-  margin-bottom: 15px; /* custom */
+  margin-bottom: 15px;
   &:hover {
     width: 90%;
   }
