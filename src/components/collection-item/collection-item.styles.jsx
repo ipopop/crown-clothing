@@ -3,8 +3,6 @@ import CustomButton from '../custom-button/custom-button.component'
 
 export const CollectionItemContainer = styled.div`
   position: relative;
-  top: 0;
-  left: 0;
   min-width: 220px;
   max-width: 250px;
   height: 350px;
@@ -22,10 +20,12 @@ export const CollectionItemContainer = styled.div`
 
 export const AddButton = styled(CustomButton)`
   position: absolute;
+  top: 0;
+  left: 23px;
   width: 80%;
-  opacity: 0.7;
+  opacity: 0.5;
+  color: black;
   top: 230px;
-  display: none;
   z-index: 3;
 `
 

@@ -1,7 +1,5 @@
 .cart-icon {
   position: relative;
-  top: 0;
-  left: 0;
   width: 45px;
   height: 45px;
   display: flex;
@@ -17,8 +15,8 @@
 
   .item-count {
     position: absolute;
+    bottom: 8px;
     font-size: 13px;
     font-weight: bold;
-    bottom: 8px;
   }
 }
