@@ -24,6 +24,7 @@ export const AddButton = styled(CustomButton)`
   position: absolute;
   top: 230px;
   display: none;
+  z-index: 3;
 `
 
 export const ImageContainer = styled.div`
