@@ -1,10 +1,10 @@
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export const HeaderContainer = styled.div`
   height: 50px;
   width: 100%;
-  min-width: 50vh;
+  min-width: 340px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
@@ -18,7 +18,7 @@ export const LogoContainer = styled(Link)`
     fill: #aad12a;
   }
   circle {
-    fill: rgba(170, 209, 42, 0.85);
+    fill: #aad12a;
   }
 `
 
@@ -31,7 +31,7 @@ export const OptionsContainer = styled.div`
 `
 
 export const OptionLink = styled(Link)`
-  min-width:  80px;
+  min-width:  73px;
   padding: 20px 15px 10px 15px;
   cursor: pointer;
 `

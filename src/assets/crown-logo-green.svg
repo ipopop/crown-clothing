@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 50 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve" xmlnsserif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Group">
+        <path id="Rectangle" d="M3,14L25,26.5L47,14L40.855,39L9.084,39L3,14Z" style="fill:rgb(170,209,42);"/>
+        <path id="Triangle" d="M25,8L40,39L10,39L25,8Z" style="fill:rgb(170,209,42);fill-opacity:0.5;"/>
+        <circle id="Oval" cx="2" cy="9" r="2" style="fill:rgb(170,209,42);"/>
+        <circle id="Oval1" serifid="Oval" cx="25" cy="2" r="2" style="fill:rgb(170,209,42);"/>
+        <circle id="Oval2" serifid="Oval" cx="48" cy="9" r="2" style="fill:rgb(170,209,42);"/>
+    </g>
+</svg>

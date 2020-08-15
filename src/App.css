@@ -1,11 +1,13 @@
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     font-family: "Open Sans Condensed";
     color: #4a4a4a;
 }
 
 body {
-    padding: 20px 60px;
+    padding: 20px 5vw 80px;
     background-color: #F9FAFB;
 }
 

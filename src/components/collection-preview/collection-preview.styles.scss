@@ -1,15 +1,16 @@
 .collection-preview {
-  display: flex;
-  flex-direction: column;
 
   .title {
-    font-size: 28px;
-    margin-bottom: 25px;
+    margin: 80px 5vw 30px;
+    font-size: 38px;
   }
 
   .preview {
-    display: flex;
-    //flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 220px);
+    grid-template-rows: repeat(auto-fill, 350px);
+    grid-gap: 45px;
+    justify-content: center;
   }
+
 }
