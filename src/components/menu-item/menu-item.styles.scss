@@ -1,4 +1,5 @@
 .menu-item {
+  display: block;
   position: relative;
   min-width: 218px;
   max-height: 380px;
@@ -14,6 +15,10 @@
 
 
   & .background-image {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(-100%, -100%);
     opacity: 1;
     transform: scale(1);
     transition: all 0.85s cubic-bezier(0.25, 0.45, 0.45, 0.95);
@@ -45,10 +50,8 @@
   }
 
   .background-image {
-    display: block;
     width: 100%;
     height: 100%;
-    position: absolute;
     background-position: center;
     background-size: cover;
   }
