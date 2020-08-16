@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components"
 
 const buttonStyles = css`
+  display: inline-block;
   padding-left: 0;
   padding-right: 0;
   text-align: center;
