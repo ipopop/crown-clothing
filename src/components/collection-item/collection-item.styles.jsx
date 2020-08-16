@@ -19,8 +19,7 @@ export const CollectionItemContainer = styled.div`
 `
 
 export const AddButton = styled(CustomButton)`
-  position: absolute;
-  width: 80%;
+  position: absolute;  
   opacity: 0.5;
   color: black;
   top: 230px;
