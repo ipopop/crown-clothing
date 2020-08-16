@@ -1,7 +1,8 @@
 import styled, { css } from "styled-components"
 
 const buttonStyles = css`
-  align-self: center;
+  display: inline-block;
+  text-align: center;
   background-color: #a1c91e;
 
   &:hover {
