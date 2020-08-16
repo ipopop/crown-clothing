@@ -9,7 +9,7 @@ export const CollectionItemContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  &:hover {
+  &:hover, :focus {
     cursor: pointer;
     button {
       opacity: 0.85;
