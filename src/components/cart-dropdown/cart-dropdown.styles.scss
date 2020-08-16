@@ -22,10 +22,12 @@
     display: block;
     position: relative;
     height: 240px;
+    max-height: 240px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
     display: flex;
     flex-direction: column;
-    max-height: 240px;
-    overflow-x: scroll;
 
     .cart-item img {
 
