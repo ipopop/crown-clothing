@@ -40,12 +40,10 @@ const getButtonStyles = (props) => {
 
 export const CustomButtonContainer = styled.button`
   position: relative;
-  padding-left: 0;
-  padding-right: 0;
-  text-align: center;
   min-width: 165px;
   width: auto;
   height: 50px;
+  text-align: center;
   letter-spacing: 0.5px;
   line-height: 50px;
   padding: 0 35px 0 35px;
@@ -56,7 +54,6 @@ export const CustomButtonContainer = styled.button`
   display: flex;
   align-content: center;
   justify-content: center;
-  color: white;
   border: 0.5px solid #222c00;
   border-radius: 0.25rem;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
