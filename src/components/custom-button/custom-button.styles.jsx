@@ -39,6 +39,9 @@ const getButtonStyles = (props) => {
 
 export const CustomButtonContainer = styled.button`
   display: block;
+  position: relative;
+  align-self: center;
+  z-index: 2;
   min-width: 165px;
   width: auto;
   height: 50px;
