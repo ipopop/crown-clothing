@@ -1,7 +1,6 @@
 import styled, { css } from "styled-components"
 
 const buttonStyles = css`
-  display: block;
   background-color: #a1c91e;
 
   &:hover {
@@ -50,8 +49,9 @@ export const CustomButtonContainer = styled.button`
   font-size: 15px;
   text-transform: uppercase;
   font-weight: bolder;
+  color: white;
   cursor: pointer;
-  display: flex;
+  display: inline-block;
   align-content: center;
   justify-content: center;
   border: 0.5px solid #222c00;
