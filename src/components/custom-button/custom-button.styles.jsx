@@ -1,10 +1,7 @@
 import styled, { css } from "styled-components"
 
 const buttonStyles = css`
-  display: inline-block;
-  padding-left: 0;
-  padding-right: 0;
-  text-align: center;
+  display: block;
   background-color: #a1c91e;
 
   &:hover {
@@ -42,6 +39,10 @@ const getButtonStyles = (props) => {
 }
 
 export const CustomButtonContainer = styled.button`
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
   min-width: 165px;
   width: auto;
   height: 50px;
