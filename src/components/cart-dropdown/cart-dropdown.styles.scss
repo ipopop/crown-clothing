@@ -19,6 +19,8 @@
   }
 
   .cart-items {
+    display: block;
+    position: relative;
     height: 240px;
     display: flex;
     flex-direction: column;
