@@ -18,9 +18,10 @@ const googleSignInStyles = css`
 `
 
 const invertedButtonStyles = css`
-  display: inline-block;
+  display: block;
   position: absolute;
-  text-align: center;
+  min-width: 188px;
+  opacity: 0.5;
   color: #4a4a4a;
   background-color: rgba(255, 255, 255, 0.75);
 
