@@ -9,6 +9,7 @@ const buttonStyles = css`
 `
 
 const googleSignInStyles = css`
+  min-width: 200px;
   background-color: #3b79dd;
 
   &:hover {

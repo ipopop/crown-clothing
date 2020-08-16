@@ -8,6 +8,7 @@ export const CollectionItemContainer = styled.div`
   height: 350px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   &:hover, :focus {
     cursor: pointer;
