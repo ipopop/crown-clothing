@@ -1,7 +1,8 @@
 import styled, { css } from "styled-components"
 
 const buttonStyles = css`
-  display: inline-block;
+  padding-left: 0;
+  padding-right: 0;
   text-align: center;
   background-color: #a1c91e;
 
@@ -51,6 +52,7 @@ export const CustomButtonContainer = styled.button`
   font-weight: bolder;
   cursor: pointer;
   display: flex;
+  align-content: center;
   justify-content: center;
   color: white;
   border: 0.5px solid #222c00;
