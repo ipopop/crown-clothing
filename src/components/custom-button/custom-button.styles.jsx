@@ -5,9 +5,6 @@ const buttonStyles = css`
 
   &:hover {
     background-color: #aad12a;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-      0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    text-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
   }
 `
 
@@ -20,6 +17,9 @@ const googleSignInStyles = css`
 `
 
 const invertedButtonStyles = css`
+  display: block;
+  position: absolute;
+  text-align: center;
   color: #4a4a4a;
   background-color: rgba(255, 255, 255, 0.75);
 
@@ -38,13 +38,8 @@ const getButtonStyles = (props) => {
 }
 
 export const CustomButtonContainer = styled.button`
-  display: block;
-  position: relative;
   min-width: 165px;
-  width: auto;
   height: 50px;
-  object-fit: content;
-  text-align: center;
   letter-spacing: 0.5px;
   line-height: 50px;
   padding: 0 35px 0 35px;
@@ -57,8 +52,14 @@ export const CustomButtonContainer = styled.button`
   justify-content: center;
   border: 0.5px solid #222c00;
   border-radius: 0.25rem;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
   transition: box-shadow 0.7s cubic-bezier(0.25, 0.45, 0.45, 0.95);
 
+  &:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    text-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+  }
+  
   ${getButtonStyles}
 `
