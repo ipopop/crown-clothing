@@ -9,7 +9,7 @@ const buttonStyles = css`
 `
 
 const googleSignInStyles = css`
-  min-width: 200px;
+  min-width: 203px;
   background-color: #3b79dd;
 
   &:hover {
@@ -39,7 +39,7 @@ const getButtonStyles = (props) => {
 }
 
 export const CustomButtonContainer = styled.button`
-  min-width: 165px;
+  min-width: 160px;
   height: 50px;
   letter-spacing: 0.5px;
   line-height: 50px;
